@@ -2,7 +2,7 @@ using Domain;
 
 namespace Persistence
 {
-  public class Seed
+  public class DbInitializer
   {
     public static async Task SeedData(DataContext context)
     {
